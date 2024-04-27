@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CG Lab 1</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #world {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: linear-gradient(#e4e0ba, #f7d9aa);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="world">
+        <!--캔버스의 랜더러-->
+    </div>
+    <script type="importmap">
+        {
+                "imports": {
+                    "three": "./node_modules/three/build/three.module.js",
+                    "addons/": "./node_modules/three/examples/jsm/"
+                }
+            }
+        </script>
+
+    <!--자바스크립트 코드 소스와 연결-->    
+    <script type="module" src="./lab (1).js"> 
+    </script>
+    
+</body>
+
+</html>
